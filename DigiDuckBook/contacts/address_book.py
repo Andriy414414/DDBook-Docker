@@ -3,7 +3,7 @@ import re
 from datetime import date, timedelta
 import typing as t
 
-from DigiDuckBook.abc_book import AbstractData
+# from DigiDuckBook.abc_book import AbstractData
 
 class Field:
     """
@@ -355,7 +355,7 @@ class Record:
             },
         }
 
-class AddressBook(UserDict, AbstractData):
+class AddressBook(UserDict):
     """
     A class representing an address book, which is a dictionary
     with record names as keys and record objects as values.
